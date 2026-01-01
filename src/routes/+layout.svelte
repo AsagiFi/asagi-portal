@@ -1,13 +1,13 @@
 <script lang="ts">
 	import './layout.css';
-	import favicon from '$lib/assets/favicon.svg';
+	import { ModeWatcher } from "mode-watcher";
 
 	const { children } = $props();
 </script>
 
 <svelte:head>
 	<title>AsagiFi</title>
-	<link rel="icon" href={favicon} />
 </svelte:head>
 
+<ModeWatcher />
 {@render children()}

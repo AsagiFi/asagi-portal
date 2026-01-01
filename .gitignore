@@ -7,4 +7,4 @@
 /build
 /node_modules
 /project.inlang/cache
-/src/lib/paraglide
+/src/lib/shared/paraglide
