@@ -1,0 +1,9 @@
+# IDE
+/.idea
+/.vscode
+
+# Svelte
+/.svelte-kit
+/build
+/node_modules
+/project.inlang/cache
