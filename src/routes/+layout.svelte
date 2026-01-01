@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { page } from '$app/state';
 	import './layout.css';
 	import favicon from '$lib/assets/favicon.svg';
 
